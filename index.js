@@ -9,9 +9,11 @@ function makeRed(){
 
 const yellowButton = document.getElementById("make-yellow");
 
-yellowButton.onclick = makeYellow;
+yellowButton.onclick = makeYellow; // () ekhane ami function ke call kore parbo na, jokhon button ta click hobe tokhon auto-maticlly call hoye jabe.
 function makeYellow(){
-    document.body.style.backgroundColor="yellow";
+    document.body.style.backgroundColor="yellow"; 
     document.body.style.color="black";
 }
+
+
 
