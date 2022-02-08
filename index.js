@@ -52,3 +52,10 @@ PurpleButton.addEventListener('click', function makePurple(){
     document.body.style.backgroundColor = "Purple";
     document.body.style.color = "white";
 })
+
+//  shortcut / driect addEventListener using
+
+document.getElementById("make-Teal").addEventListener('click',function(){
+    document.body.style.backgroundColor="Teal";
+    document.body.style.color = "white";
+})
