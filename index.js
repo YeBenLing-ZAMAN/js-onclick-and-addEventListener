@@ -42,3 +42,12 @@ function makeDarkSalmon(){
     document.body.style.backgroundColor = "DarkSalmon";
     document.body.style.color = "black";
 }
+
+
+//  handling by addEventListener by function 
+
+const PurpleButton = document.getElementById("make-Purple");
+PurpleButton.addEventListener('click', function makePurple(){
+    document.body.style.backgroundColor = "Purple";
+    document.body.style.color = "white";
+})
