@@ -45,6 +45,7 @@ function makeDarkSalmon(){
 
 
 //  handling by addEventListener by function 
+// if i not use function name it's going to okk
 
 const PurpleButton = document.getElementById("make-Purple");
 PurpleButton.addEventListener('click', function makePurple(){
