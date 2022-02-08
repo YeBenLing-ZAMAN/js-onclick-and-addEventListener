@@ -33,3 +33,12 @@ blueButton.onclick = function () { // function has no name
     document.body.style.color = "white";
 }
 
+// handling by addEventListener by calling function
+
+const DarkSalmonbutton = document.getElementById("make-DarkSalmon");
+
+DarkSalmonbutton.addEventListener('click', makeDarkSalmon)
+function makeDarkSalmon(){
+    document.body.style.backgroundColor = "DarkSalmon";
+    document.body.style.color = "black";
+}
