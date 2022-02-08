@@ -16,4 +16,11 @@ function makeYellow(){
 }
 
 
+// handling by function 
+const pinkbutton = document.getElementById("make-pink");
+
+pinkbutton.onclick = function makepink (){
+    document.body.style.backgroundColor="pink"; 
+    document.body.style.color="white";
+}
 
